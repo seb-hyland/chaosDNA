@@ -1,10 +1,10 @@
 # The chaosDNA utility for generating randomly mutated DNA sequences
 
 ## How to run
-Download the latest version from releases. Extract the folder, and run chaosDNA.bat.
+Download the latest version from "Releases"; extract the archive, and run `chaosDNA.bat`. Alternatively, download the source code and use standard Rust commands (i.e., `cargo build` and `cargo run`.)
 
 ## Probability modifications
-The ins_prob, del_prob, and mod_prob variables (defined near the top of main.rs) control the probabilities of an insertion, a deletion, and/or a mutation error occuring at each index.  The default probabilities are set to 0.2, 0.2, and 0.3 respectfully; however, these can be modified for any value between 0 and 1.
+The `ins_prob`, `del_prob`, and `mod_prob` variables (defined near the top of main.rs) control the probabilities of an insertion, a deletion, and/or a mutation error occuring at each index.  The default probabilities are set to 0.2, 0.2, and 0.3 respectfully; however, these can be modified for any value between 0 and 1.
 
 ## Output style
 An example output for the input "ACGTGCA" is the following:

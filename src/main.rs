@@ -81,6 +81,8 @@ fn main() {
     println!("--- Modified sequence ---");
     println!("{}", output.join(""));
     println!("--- Changelog ---");
+    print!("Original:  ");
     println!("{}", original_sequence);
+    print!("Modified:  ");
     println!("{}", changelog.join(""));
 }
