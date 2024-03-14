@@ -6,11 +6,7 @@ The ins_prob, del_prob, and mod_prob variables (defined near the top of main.rs)
 ## Output style
 An example output for the input "ACGTGCA" is the following:
 
---- Modified sequence ---
-GTTGGGAG
---- Changelog ---
-AC GT GC A
-<span style="color:rgb(56,97,140)">G</span>-T-TGG-GAG
+![image](./example-output.png)
 
 Under modified sequence, the randomly mutated sequence is outputted; under changelog, the original sequence and randomly mutated sequence are aligned (original sequence on top, mutated on bottom). The mutated sequence is presented here with colour-coded formatting to display how the original sequence has been modified. At points where an insertion occured, a space is added to the original sequence to preserve alignment, and at points where a deletion occured, a "-" is added to the modified sequence. 
 
