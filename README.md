@@ -7,7 +7,7 @@ Download the latest version from "Releases"; extract the archive, and run `chaos
 The `ins_prob`, `del_prob`, and `mod_prob` variables (defined near the top of main.rs) control the probabilities of an insertion, a deletion, and/or a mutation error occuring at each index.  The default probabilities are set to 0.2, 0.2, and 0.3 respectfully; however, these can be modified for any value between 0 and 1.
 
 ## Output style
-An example output for the input "ACGTGCA" is the following:
+An example output for the input "AGAGATACGAGCCA" is the following:
 
 ![image](./example-output.png)
 
