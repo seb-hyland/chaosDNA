@@ -1,4 +1,4 @@
-# The chaos_dna utility for generating randomly mutated DNA sequences
+# The chaosDNA utility for generating randomly mutated DNA sequences
 
 ## Probability modifications
 The ins_prob, del_prob, and mod_prob variables (defined near the top of main.rs) control the probabilities of an insertion, a deletion, and/or a mutation error occuring at each index.  The default probabilities are set to 0.2, 0.2, and 0.3 respectfully; however, these can be modified for any value between 0 and 1.
